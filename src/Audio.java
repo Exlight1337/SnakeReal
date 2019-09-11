@@ -11,10 +11,10 @@ public class Audio {
 
 
     //конструктор (адрес файла, уровень громкости)
-    public Аudio(String track, double wt) {
-        this.track = track;
-        this.wt = wt;
-    }
+   // public Аudio(String track, double wt) {
+     //   this.track = track;
+       // this.wt = wt;
+    //}
 
     public void sound(){
         File f = new File(this.track);//переда файла в f
